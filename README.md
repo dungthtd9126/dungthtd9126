@@ -1,6 +1,54 @@
-# Saitomu Portfolio
+<div align="center">
+  <img src="assets/home-neon-cat.webp" alt="A silhouetted cat watching a violet city glow through a window." width="760" />
+  <h1>Saitomu</h1>
+  <p><strong>Pwner / Binary Exploitation</strong><br />CTF · PWN · REVERSE · KERNEL</p>
+  <p>I explore binary exploitation, reverse engineering, and Linux kernel security—and document what I learn along the way.</p>
+  <p>
+    <a href="https://github.com/dungthtd9126">GitHub</a> ·
+    <a href="https://hackmd.io/IEqCkk2GRHe3qK5KhcyuGQ">HackMD notes</a> ·
+    <a href="https://pwnable.tw/user/40468">pwnable.tw</a> ·
+    <a href="https://github.com/dungthtd9126/vercel-portfolio">Portfolio source</a>
+  </p>
+</div>
 
-A dependency-free portfolio with separate HTML pages:
+---
+
+## About
+
+I'm a CTF player interested in the details beneath the surface: memory layouts, calling conventions, allocators, and loaders. I work from reproducing a behavior and tracing its cause to building a proof of concept, then write up the process so the reasoning is useful later.
+
+> Small steps. Deeper understanding.
+
+## Focus
+
+- **Binary exploitation:** heap primitives, out-of-bounds bugs, format strings, leaks, and ROP.
+- **Linux kernel:** internals and exploitation techniques including overflows, use-after-free bugs, and race conditions.
+- **Reverse engineering:** understanding how compiled programs behave and where their assumptions break.
+- **Learning in public:** CTF write-ups, reusable notes, and references.
+
+## Selected repositories
+
+| Repository | Topics |
+| --- | --- |
+| [0xlaugh & VSL CTF write-ups](https://github.com/dungthtd9126/0xlaugh-And-VSL-ctf-write-up) | Seccomp, shellcode, format strings, leaks, and ROP |
+| [write-up-task-CLB](https://github.com/dungthtd9126/write-up-task-CLB) | Binary exploitation notes, FSOP, FILE structures, and ret2dlresolve |
+| [WU_loc_tv](https://github.com/dungthtd9126/WU_loc_tv) | OOB bugs, heap manipulation, arbitrary read/write, races, and ROP |
+| [LK_pwnyable_learning](https://github.com/dungthtd9126/LK_pwnyable_learning) | Linux kernel exploitation write-ups |
+| [CTF-note](https://github.com/dungthtd9126/CTF-note) | CTF notes, references, and reusable techniques |
+
+## Write-ups & notes
+
+- [KCSC Recruitment 2025 — PWN](https://hackmd.io/IEqCkk2GRHe3qK5KhcyuGQ)
+- [KMA CTF 2026](https://hackmd.io/@gbCdQ_ljS7ujEO84BSXzYw/SJAGejUgGl)
+- [Lac CTF FSOP notes](https://github.com/dungthtd9126/Lac-CTF)
+
+## How I work
+
+**Reproduce** the behavior · **Understand** the mechanism · **Build** a proof of concept · **Document** the path, including what did not work.
+
+## Portfolio website
+
+This repository also contains my dependency-free portfolio site. Its pages are:
 
 - `index.html`: Home and selected repositories
 - `about.html`: About
