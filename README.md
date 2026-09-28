@@ -1,9 +1,10 @@
 <div align="center">
-  <img src="assets/home-neon-cat.webp" alt="A silhouetted cat watching a violet city glow through a window." width="760" />
+  <img src="assets/github-profile-cat.webp" alt="A black cat silhouetted against a violet city skyline." width="760" />
   <h1>Saitomu</h1>
   <p><strong>CTF player · Binary exploitation</strong><br />Reverse engineering · Linux kernel</p>
   <p>I explore how systems work beneath the surface, then share what I learn through blogs, notes, and CTF write-ups.</p>
   <p>
+    <a href="https://saitomu.lykn.ru/">Portfolio</a> ·
     <a href="https://github.com/dungthtd9126">GitHub</a> ·
     <a href="https://hackmd.io/IEqCkk2GRHe3qK5KhcyuGQ">HackMD notes</a> ·
     <a href="https://pwnable.tw/user/40468">pwnable.tw</a>
